@@ -77,8 +77,6 @@ static void process_z_sample(int16_t z) {
 // Callback function called by External interupt at 10hz 
 void accel_callback_function(int16_t x, int16_t y, int16_t z){
     printf("%6d,%6d,%6d\n", x, y, z);
-    (void)x;
-    (void)y;
     process_z_sample(z);
 }
 // Do nothing when a key is pressed
