@@ -16,6 +16,7 @@ int __io_putchar(int data) {
   usart2_tx((uint8_t)data);
   return data;
 }
+//Test
 
 // Callback function for systick exceptions registered in systick_init()
 // Toggle the onboard green LED and start an ADC conversion
