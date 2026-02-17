@@ -28,7 +28,7 @@ void systick_callback_function(void) {
 }
 // Callback function called by External interupt at 10hz 
 void accel_callback_function(int16_t x, int16_t y, int16_t z){
-    printf("%6d,%6d,%6d\n", x, y, z);//X,Y,Z
+    printf("%6d,%6d,%6d\n", x, y, z);
 }
 
 // Do nothing when a key is pressed
