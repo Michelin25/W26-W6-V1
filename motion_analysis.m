@@ -6,6 +6,7 @@ clear; clc;
 
 runData = readmatrix('Run.txt');
 walkData = readmatrix('Walking.txt');
+running2Data = readmatrix('running2');
 
 % Keep first 3 columns as X, Y, Z.
 runData = runData(:, 1:3);
