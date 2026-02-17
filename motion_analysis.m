@@ -2,7 +2,9 @@
 % Load Run.txt and Walking.txt (CSV-formatted text), plot x/y/z vs sample index,
 % and compute/plot FFT magnitude spectra for both datasets.
 
-clear; clc;
+close all
+clear
+clc
 
 runData = readmatrix('Run.txt');
 walkData = readmatrix('Walking.txt');
